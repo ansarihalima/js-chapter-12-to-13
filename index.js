@@ -72,13 +72,11 @@ function isVowel(char) {
     }
 }
 
-// Example usage:
 var userInput = prompt("Enter a character:");
 
-// Check if the character entered by the user is a vowel
 var result = isVowel(userInput);
 
-// Display the result
+
 console.log("Is '" + userInput + "' a vowel? " + result);
 
 
@@ -139,17 +137,17 @@ let timeInput = prompt("Enter the time:");
 
 let time = parseInt(timeInput);
 
-let greeting;
+let greet;
 
 if (time >= 400 && time < 1200) {
-    greeting = "Good Morning";
+    greet = "Good Morning";
 } else if (time >= 1200 && time < 1700) {
-    greeting = "Good Afternoon";
+    greet = "Good Afternoon";
 } else if (time >= 1700 && time < 2100) {
-    greeting = "Good Evening";
+    greet = "Good Evening";
 } else {
-    greeting = "Good Night";
+    greet = "Good Night";
 }
 
-console.log(greeting);
+console.log(greet);
 
